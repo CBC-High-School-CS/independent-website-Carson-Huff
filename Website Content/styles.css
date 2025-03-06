@@ -1,0 +1,40 @@
+/*
+    Overstock
+    Filename: styles.css
+    Author: Carson Huff
+    Date: March 6 2025
+*/
+/* reset styles */
+html {
+    font-size: 16;
+}
+a, article, body, div, figcaption, figure, footer, header, h1, h2, h3, img, nav, p, hgroup {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+/* body */
+body {
+    background-color: #808080;
+    border: 4px solid #000000;
+}
+.header {
+    font-size: 64px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #00ff00;
+    text-align: center;
+}
+.nav {
+    font-size: 80px;
+    text-align: center;
+}
+.nav a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border: 4px solid #000;
+    padding: 2px;
+    margin: 6px;
+    margin-top: 4px;
+}
